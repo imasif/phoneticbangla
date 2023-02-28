@@ -1,0 +1,19 @@
+{
+  "name": "phoneticbangla",
+  "version": "1.0.4",
+  "keywords": [
+    "bangla",
+    "phonetic",
+    "phoneticbangla"
+  ],
+  "description": "a js plugin to apply phonetic bangla to used by everyone.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/imasif/phoneticbangla",
+    "type": "git"
+  },
+  "author": "Md. Asif Khan",
+  "license": "MIT",
+  "private": false,
+  "type": "commonjs"
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <textarea></textarea>
+    <p></p>
+
+    <script src="index.js"></script>
+
+    <script>
+      let pb = new PhoneTicBangla();
+
+      let ta = document.querySelector('textarea');
+
+      ta.addEventListener('input', function(e) {
+    // event handling code for sane browsers
+    let val =e.target.value
+
+    let trans = pb.transpile(val);
+
+    document.querySelector('p').innerHTML = trans
+  }, false);
+
+      
+      console.log(pb.text);
+    </script>
+  </body>
+</html>
